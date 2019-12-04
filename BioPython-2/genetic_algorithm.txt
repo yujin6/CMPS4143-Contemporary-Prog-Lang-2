@@ -1,0 +1,36 @@
+Yujin Yoshimura
+CMPS 4553 Survey Computational Methods
+Dr. Tina Johnson
+Program 6
+
+This program implements genetic algorithm with fitness-proportionate selection,
+roulette-wheel sampling, single-point crossover, and bitwise mutation.
+
+
+Population size : 100
+Genome length   : 20
+Crossover rate  : Pc = 0.7
+Mutation rate   : Pm = 0.001
+
+Generation   Average Fitness   Best Fitness
+         0             10.18             15
+         1             10.79             15
+         2             11.18             16
+         3              11.7             17
+         4             12.04             16
+         5             12.67             16
+         6             12.92             16
+         7             13.39             17
+         8             13.38             17
+         9             13.62             17
+        10             14.02             17
+        11             14.22             17
+        12             14.52             17
+        13             14.72             17
+        14             14.95             17
+        15             14.85             17
+        16             15.06             18
+        17             15.21             18
+        18             15.64             18
+        19             15.53             17
+        20             15.82             18

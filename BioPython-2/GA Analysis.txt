@@ -1,0 +1,4 @@
+Yujin Yoshimura
+Genetic Algorithm Analysis
+
+The best combination of crossover rates and mutation rates seemed to be 0.7 and 0.001 respectively, as given in the problem, based on the experience of running the genetic algorithm program multiple times. Lower crossover rates would result in more chromosomes to be copied directly from the previous generation, which can guarantee the average fitness to rise, but generates less offspring chromosomes with higher fitness. Higher crossover rates would result in more offspring chromosomes, which increases both the chance of rising the maximum fitness and the risk of dropping the maximum fitness. Mutation rates must be kept low, as bitwise mutation of a lot of 1's would result in a lot of 0's, which results in lower fitness. However, there are cases that None of the chromosomes have 1's in a particular spot of the genome, and mutation is the only way to get 1's in such spot, hence mutation rates shouldn't be 0.
